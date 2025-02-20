@@ -1,0 +1,13 @@
+/* Margin > Border > Padding > Content */
+.box1 {
+  background-color: blue;
+  width: 80px;
+  height: 80px;
+  /* 상자의 크기는 = border가 사이즈에 더해진 값 */
+  border: 10px solid black;
+}
+.box2 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
