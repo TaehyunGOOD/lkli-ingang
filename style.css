@@ -1,32 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+}
+
+body,
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
 .name-text {
-  font-size: 17px;
+  font-size: 1.0625rem;
   color: #7c7c7c;
   font-weight: bold;
 }
 
 /* class 는 . 으로 나타냄
 .small-font {
-  font-size: 10px;
+  font-size: .625rem;
 } */
 
 /* id는 # 으로 나타냄
 #big-font {
-  font-size: 50px;
+  font-size: 3.125rem;
 } */
 .mainbox {
-  border: 1px solid black;
-  width: 610px;
+  border: 0.0625rem solid black;
+  width: 38.125rem;
   /* 내부 텍스트 위치 */
   text-align: right;
   /* 박스 전체 위치 */
-  margin: 0 auto;
+  margin: 30px auto;
   padding: 30px;
-  margin: 30px;
+  box-shadow: 0 0.0625rem 1.25rem 0rem rgba(0, 0, 0, 0.1);
 }
 
 footer {
   text-align: center;
   background-color: #1e1e1e;
   color: #919191;
-  font-size: 12px;
+  font-size: 0.75rem;
+  padding: 1.25rem;
 }
